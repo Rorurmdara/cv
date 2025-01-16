@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <header class="p-3 px-4 bg-warning-subtle">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-between">
+        <a
+          href="/"
+          class="d-flex align-items-center text-dark text-decoration-none"
+        >
+          <svg
+            class="bi me-2"
+            width="40"
+            height="32"
+            role="img"
+            aria-label="Bootstrap"
+          >
+            <use xlink:href="#bootstrap" />
+          </svg>
+        </a>
+        <ul class="nav me-lg-auto mb-2 mb-lg-0">
+          <li>
+            <a href="./home.html" class="nav-link px-2 text-secondary">Home</a>
+          </li>
+          <li>
+            <a href="./services.html" class="nav-link px-2 text-secondary"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a href="contac.html" class="nav-link px-2 text-secondary"
+              >Contact us
+            </a>
+          </li>
+          <li>
+            <a href="me.html" class="nav-link px-2 text-secondary">About</a>
+          </li>
+        </ul>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input
+            type="search"
+            class="form-control form-control-dark text-dark"
+            placeholder="Search..."
+            aria-label="Search"
+          />
+        </form>
+        <button type="button" class="btn btn-warning">Let's Talk</button>
+      </div>
+    </div>
+  </header>
+
+  <body>
+    <main>
+      <!--1-->
+      <section id="comment">
+        <h3 class="display-6 fw-bold text-center opacity-75">Feedback</h3>
+        <p class="text-center opacity-75">Click on the cards to see my portfolios.</p>
+        <div class="row row-cols-1 row-cols-md-2 g-3 p-3">
+          <div class="col">
+            <div class="card border-3 border-secondary">
+              <div class="card-body">
+                <div class="text-center">
+                  <!-- Image in center for better alignment -->
+                  <img
+                    src="data:image/jpeg;base64,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"
+                    class="bd-placeholder-img rounded-circle"
+                    width="140"
+                    height="140"
+                    alt="Your Image Description"
+                  />
+                </div>
+                <p class="card-text text-center opacity-75">
+                  "This man is an exceptional designer with a keen eye for
+                  detail and creativity. Their professionalism, reliability, and
+                  innovative solutions make them a pleasure to work with. Highly
+                  recommended for outstanding results!"
+                </p>
+                <h3 class="card-text text-center opacity-75">CEO.Mark Zuckerberg</h3>
+              </div>
+            </div>
+          </div>
+          <!-- Second Testimonial -->
+          <div class="col">
+            <div class="card border-3 border-secondary">
+              <div class="card-body">
+                <div class="text-center">
+                  <img
+                    src="./dr.jpg"
+                    class="bd-placeholder-img rounded-circle"
+                    width="140"
+                    height="140"
+                    alt="Your Image Description"
+                  />
+                </div>
+                <p class="card-text text-center opacity-75">
+                  "Dara is an exceptional designer with a keen eye for detail
+                  and creativity. Their professionalism, reliability, and
+                  innovative solutions make them a pleasure to work with. Highly
+                  recommended for outstanding results!"
+                </p>
+                <h3 class="card-text text-center opacity-75">Mr.Sovila</h3>
+              </div>
+            </div>
+          </div>
+          <!-- Third Testimonial -->
+          <div class="col">
+            <div class="card border-3 border-secondary">
+              <div class="card-body">
+                <div class="text-center">
+                  <img
+                    src="./photo_2025-01-12_12-54-00.jpg"
+                    class="bd-placeholder-img rounded-circle"
+                    width="140"
+                    height="140"
+                    alt="Your Image Description"
+                  />
+                </div>
+                <p class="card-text text-center opacity-75">
+                  " Amazing !he is a an exceptional designer with a keen eye for
+                  detail and creativity. Their professionalism, reliability, and
+                  innovative solutions make them a pleasure to work with. Highly
+                  recommended for outstanding results!"
+                </p>
+                <h3 class="card-text text-center opacity-75">Ms.Sreypea</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--2-->
+      <section id="money">
+        <div class="pricing-header pb-md-4 text-center m-3 g-2 ">
+          <h5 class="display-4 fw-normal  display-6 fw-bold opacity-75">Pricing</h5>
+          <p class="fs-5 text-body-secondary">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center m-2">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm  border-3 border-secondary ">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal opacity-75">Free</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title opacity-75">$0<small class="text-body-secondary fw-light">/pro</small></h1>
+                <ul class="list-unstyled mt-3 mb-4 opacity-75">
+                  <li>plan together</li>
+                  <li>figma design</li>
+                  <li>meeting online</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-warning">Sign up for free</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm  border-3 border-secondary">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal opacity-75">Pro</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title opacity-75">$1500<small class="text-body-secondar fw-light">/pro</small></h1>
+                <ul class="list-unstyled mt-3 mb-4 opacity-75">
+                  <li>Front-end </li>
+                  <li>Figma design</li>
+                  <li>Git hup</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-warning">Get started</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary  border-3 border-secondary">
+              <div class="card-header py-3 text-bg- border-">
+                <h4 class="my-0 fw-normal">Enterprise</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title opacity-75">$3000<small class="text-body-secondary fw-light">/pro</small></h1>
+                <ul class="list-unstyled mt-3 mb-4 opacity-75">
+                  <li>Full stacks</li>
+                  <li>Full project</li>
+                  <li>Managerment</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-warning">Contact us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </section>
+      <!--2-->
+      <section id="Contact">
+        <div class="border border-3  border-secondary rounded-2 m-3  g-3 p-3">
+          <h3 class="display-6 fw-bold text-center opacity-75 ">Let work together</h3>
+          <form class="needs-validation" novalidate>
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="firstName" class="form-label">First name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+              </div>
+  
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Valid last name is required.
+                </div>
+              </div>
+  
+              <div class="col-12">
+                <label for="username" class="form-label">Username</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text">@</span>
+                  <input type="text" class="form-control" id="username" placeholder="Username" required>
+                <div class="invalid-feedback">
+                    Your username is required.
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-12">
+                <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
+                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                <div class="invalid-feedback">
+                  Please enter a valid email address for shipping updates.
+                </div>
+              </div>
+  
+              <div class="col-12">
+                <label for="address" class="form-label">Address</label>
+                <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+                <div class="invalid-feedback">
+                  Please enter your shipping address.
+                </div>
+              </div>
+  
+              <div class="col-12">
+                <label for="address2" class="form-label">Address 2 <span class="text-body-secondary">(Optional)</span></label>
+                <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+              </div>
+  
+              <div class="col-md-5">
+                <label for="country" class="form-label">Country</label>
+                <select class="form-select" id="country" required>
+                  <option value="">Choose...</option>
+                  <option>United States</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid country.
+                </div>
+              </div>
+  
+              <div class="col-md-4">
+                <label for="state" class="form-label">State</label>
+                <select class="form-select" id="state" required>
+                  <option value="">Choose...</option>
+                  <option>California</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please provide a valid state.
+                </div>
+              </div>
+  
+              <div class="col-md-3">
+                <label for="zip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="zip" placeholder="" required>
+                <div class="invalid-feedback">
+                  Zip code required.
+                </div>
+              </div>
+            </div>
+  
+            <hr class="my-4">
+  
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="same-address">
+              <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="save-info">
+              <label class="form-check-label" for="save-info">Save this information for next time</label>
+            </div>
+           </div>
+      </section>
+      <!--3-->
+      
+      <!--4-->
+      <section id="botton">
+        <button class="w-10 btn btn-warning  m-3" type="submit">Continue to checkout</button>
+        </form>
+      </section>
+    </main>
+  </body>
+  <footer class="bg-warning-subtle text-secodary py-4">
+    <div class="container text-center">
+      <p>&copy; 2025 Dara. All rights reserved.</p>
+      <div>
+        <a
+          href="https://www.linkedin.com/in/rouerm-dara-757176346/"
+          class="text-secondary mx-3"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a
+          href="https://github.com/Rorurmdara"
+          class="text-secondary mx-3"
+          target="_blank"
+          >GitHub</a
+        >
+        <a
+          href="https://mail.google.com/mail/u/0/#inbox"
+          class="text-secondary mx-3"
+          >Email</a
+        >
+      </div>
+    </div>
+  </footer>
+</html>

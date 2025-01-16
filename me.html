@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dara's Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <meta
+      name="description"
+      content="A responsive web page built with Bootstrap"
+    />
+    <meta name="author" content="Dara" />
+    <meta
+      name="keywords"
+      content="Bootstrap, HTML, CSS, JavaScript, Responsive Design"
+    />
+    <meta name="robots" content="index, follow" />
+    <!-- Open Graph Metadata for Social Media -->
+    <meta property="og:title" content="Dara's Portfolio" />
+    <meta
+      property="og:description"
+      content="A responsive web page showcasing Dara's projects."
+    />
+    <meta property="og:image" content="photo_2025-01-13_01-30-43.jpg" />
+    <meta property="og:url" content="https://rorurmdara.github.io/cv/" />
+    <meta property="og:type" content="website" />
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dara's Portfolio" />
+    <meta
+      name="twitter:description"
+      content="A responsive web page showcasing Dara's projects."
+    />
+    <meta name="twitter:image" content="photo_2025-01-13_01-30-43.jpg" />
+    <style>
+      /* Ensure the footer sticks to the bottom */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+      }
+      body {
+        font-family: Arial, sans-serif;
+      }
+      main {
+        flex: 1;
+      }
+      footer {
+        background-color: #fff3cd; /* Bootstrap's warning-subtle color */
+        color: #856404;
+        padding: 1rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="p-3 px-4 bg-warning-subtle">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-between"
+        >
+          <a
+            href="/"
+            class="d-flex align-items-center text-dark text-decoration-none"
+          >
+            <svg
+              class="bi me-2"
+              width="40"
+              height="32"
+              role="img"
+              aria-label="Bootstrap"
+            >
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
+          <ul class="nav me-lg-auto mb-2 mb-lg-0">
+            <li>
+              <a href="./home.html" class="nav-link px-2 text-secondary">Home</a>
+            </li>
+            <li>
+              <a href="services.html" class="nav-link px-2 text-secondary"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a href="./Testimonials.html" class="nav-link px-2 text-secondary"
+                >Testimonials</a
+              >
+            </li>
+            <li><a href="./me.html" class="nav-link px-2 text-secondary">About</a></li>
+          </ul>
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input
+              type="search"
+              class="form-control form-control-dark text-dark"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+          </form>
+          <button type="button" class="btn btn-warning">Let's Talk</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Services Section 1 -->
+      <section id="service" class="my-5">
+        <div class="container">
+          <div class="text-center mb-4 opacity-75">
+            <h3 class="display-6 fw-bold">Skill</h3>
+            <p>Something make me unique.</p>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4 opacity-75">
+            <!-- Card 1 -->
+            <div class="col">
+              <div class="card border-warning h-100 shadow-sm">
+                <div class="card-body text-center ">
+                  <h5 class="card-title">UI/UX Designing</h5>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col">
+              <div class="card border-warning h-100 shadow-sm">
+                <div class="card-body text-center">
+                  <h5 class="card-title">App UI/UX</h5>
+                </div>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col">
+              <div class="card border-warning h-100 shadow-sm">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Web Development</h5>
+                </div>
+              </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col">
+              <div class="card border-warning h-100 shadow-sm">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Graphic Designing</h5>
+                </div>
+              </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="col">
+              <div class="card border-warning h-100 shadow-sm">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Product Designing</h5>
+                </div>
+              </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="col">
+              <div class="card border-warning h-100 shadow-sm">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Social Media Posts</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+      </section>
+      <section id = "education">
+        <div
+          class="d-flex flex-column flex-md-row p-  gap-4 py-md-5 align-items-center justify-content-center"
+        >
+        <div class="container">
+          <div class="text-center mb-4 opacity-75">
+            <h3 class="display-6 fw-bold">Education</h3>
+            <p>Education is my everything.</p>
+          </div>
+            <h6 class="border-bottom"></h6>
+            <div class="d-flex text-body-secondary pt-3">
+              <div class="pb-3 mb-0 small lh-sm border-bottom">
+                <h5 class="d-block text-gray-dark"> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/>
+                </svg> Sovannaphumi</h5>
+                <p>Grade B </p>
+                <button type="button" class="btn btn-warning ">
+                2020-2023
+                </button>
+              </div>
+            </div>
+            <div class="d-flex text-body-secondary pt-3">
+              <div class="pb-3 mb-0 small lh-sm border-bottom">
+                <h5 class="d-block text-gray-dark"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/>
+                </svg> Royal university of phnom phen</h5>
+                <p>Bachelor  : Information technology engineering  </p>
+                <button type="button" class="btn btn-warning">2023-2027</button>
+              </div>
+            </div>
+            <div class="d-flex text-body-secondary pt-3">
+              
+              <div class="pb-3 mb-0 small lh-sm border-bottom">
+                <h5 class="d-block text-gray-dark"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/>
+                </svg> Istard</h5>
+                <p>Full stacks</p>
+                <button type="button" class="btn btn-warning">12/2/2024-2025</button>
+              </div>
+            </div>
+
+    
+            
+          
+      </section>
+      <div class="text-center mt-4 opacity-75">
+        <h2 class="display-6 fw-bold ">Tools</h2>
+        <p>This is what i use for Development.</p>
+      </div>
+    </div>
+      <!--  Section  skill 2-->
+      <section id="skill">
+        <div
+          class="d-flex flex-column flex-md-row p-4  gap-4 py-md-5 align-items-center justify-content-center"
+        >
+          <div class="list-group">
+            <a
+              href="#"
+              class="list-group-item border-warning d-flex gap-3 py-3"
+              aria-current="true"
+            >
+              <img
+                src="./png-transparent-figma-app-logo-tech-companies-thumbnail.png"
+                alt="twbs"
+                width="32"
+                height="32"
+                class="rounded-circle flex-shrink-0"
+              />
+              <div class="d-flex gap-2 w-100  justify-content-between">
+                <div>
+                  <h6 class="mb-0 opacity-75">Figma</h6>
+                  <p class="mb-0 opacity-75">
+                    Some placeholder content in a paragraph.
+                  </p>
+                </div>
+                <small class="opacity-50 text-nowrap">100%</small>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="list-group-item border-warning list-group-item-action d-flex gap-3 py-3"
+              aria-current="true"
+            >
+              <img
+                src="./download.png"
+                alt="twbs"
+                width="32"
+                height="32"
+                class="rounded-circle flex-shrink-0"
+              />
+              <div class="d-flex gap-2 w-100 justify-content-between">
+                <div>
+                  <h6 class="mb-0 opacity-75">Python</h6>
+                  <p class="mb-0 opacity-75">
+                    Some placeholder content in a paragraph that goes a little
+                    longer so it wraps to a new line.
+                  </p>
+                </div>
+                <small class="opacity-50 text-nowrap">90%</small>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="list-group-item border-warning list-group-item-action d-flex gap-3 py-3"
+              aria-current="true"
+            >
+              <img
+                src="./nodejs-logo-vector-115739710199ssrzzitws.jpg"
+                alt="twbs"
+                width="32"
+                height="32"
+                class="rounded-circle flex-shrink-0"
+              />
+              <div class="d-flex gap-2 w-100 justify-content-between">
+                <div>
+                  <h6 class="mb-0 opacity-75">Note.js</h6>
+                  <p class="mb-0 opacity-75">
+                    Some placeholder content in a paragraph.
+                  </p>
+                </div>
+                <small class="opacity-50 text-nowrap">0%</small>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="list-group-item border-warning list-group-item-action d-flex gap-3 py-3"
+              aria-current="true"
+            >
+              <img
+                src="./png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png"
+                alt="twbs"
+                width="32"
+                height="32"
+                class="rounded-circle flex-shrink-0"
+              />
+              <div class="d-flex gap-2 w-100 justify-content-between">
+                <div>
+                  <h6 class="mb-0 opacity-75">Git hup</h6>
+                  <p class="mb-0 opacity-75">
+                    Some placeholder content in a paragraph.
+                  </p>
+                </div>
+                <small class="opacity-50 text-nowrap">100%</small>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="list-group-item border-warning list-group-item-action d-flex gap-3 py-3"
+              aria-current="true"
+            >
+              <img
+                src="./download (3).png"
+                alt="twbs"
+                width="32"
+                height="32"
+                class="rounded-circle flex-shrink-0"
+              />
+              <div class="d-flex gap-2 w-100 justify-content-between">
+                <div>
+                  <h6 class="mb-0 opacity-75">Photo shop</h6>
+                  <p class="mb-0 opacity-75">
+                    Some placeholder content in a paragraph.
+                  </p>
+                </div>
+                <small class="opacity-50 text-nowrap">99%</small>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="list-group-item border-warning list-group-item-action d-flex gap-3 py-3"
+              aria-current="true"
+            >
+              <img
+                src="./al.jpg"
+                alt="twbs"
+                width="32"
+                height="32"
+                class="rounded-circle flex-shrink-0"
+              />
+              <div class="d-flex gap-2 w-100 justify-content-between">
+                <div>
+                  <h6 class="mb-0 opacity-75">adobe illustrator</h6>
+                  <p class="mb-0 opacity-75">
+                    Some placeholder content in a paragraph.
+                  </p>
+                </div>
+                <small class="opacity-50 text-nowrap">99%</small>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      </section>
+      <!--  Section  education 3-->	
+      <section id="project">
+        <div class="text-center mt-4 opacity-75">
+          <h2 class="display-6 fw-bold ">Project</h2>
+          <p>This is from something that i completed.</p>
+        </div>
+      </div>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start opacity-75">
+            <div class="icon-square text-body-emphasis text- d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
+            </div>
+            <div>
+              <h3 class=" opacity-75 fs-2 text-body-emphasis"> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+              </svg> E-commerce System</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="#" class="btn btn-primary">
+                01/11/2024
+              </a>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start opacity-75">
+            <div class="icon-square opacity-75 text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"/></svg>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis opacity-75"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-broadcast" viewBox="0 0 16 16">
+                <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707m2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708m5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708m2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0"/>
+              </svg>  Tracking System</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="#" class="btn btn-primary">
+                12/11/2024
+              </a>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start opacity-75">
+            <div class="icon-square text-body-emphasis opacity-75 bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"/></svg>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis opacity-75"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-credit-card-2-back" viewBox="0 0 16 16">
+                <path d="M11 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5z"/>
+                <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm13 2v5H1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1m-1 9H2a1 1 0 0 1-1-1v-1h14v1a1 1 0 0 1-1 1"/>
+              </svg>  Bank Sytem</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="#" class="btn btn-primary">
+                01/01/2025
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <!--section 4 -->
+      </section>
+    </main>
+      <footer>
+        <div class="container text-center">
+          <!-- Footer Text -->
+          <p class="mb-3">&copy; 2025 Dara. All rights reserved.</p>
+          <!-- Footer Links -->
+          <div class="d-flex justify-content-center">
+            <a
+              href="https://www.linkedin.com/in/rouerm-dara-757176346/"
+              class="text-secondary mx-3"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn Profile"
+            >
+              <i class="bi bi-linkedin"></i> LinkedIn
+            </a>
+            <a
+              href="https://github.com/Rorurmdara"
+              class="text-secondary mx-3"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub Profile"
+            >
+              <i class="bi bi-github"></i> GitHub
+            </a>
+            <a
+              href="mailto:example@gmail.com"
+              class="text-secondary mx-3"
+              aria-label="Email Dara"
+            >
+              <i class="bi bi-envelope"></i> Email
+            </a>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
